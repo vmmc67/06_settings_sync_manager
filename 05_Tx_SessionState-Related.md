@@ -119,15 +119,20 @@ doubleUp            | 3 <= x <= 8
 | doubleDown        | -8 <= x <= -3
 
 
+## ShowEgv (Enum)
 
-enum case              | Description                
------------------------| ---------------------
-notConsented           | The user's token does not contain the DataShare scope.
-authenticationRequired | AuthManager reported that the user needs to
+This tells the client whether to show the actual glucose value or to indicated simply 'High' or 'Low'.
 
 
-ield                | Type                  | Description
--------------------- | --------------------- | ------------------
-| syncName	         | String	               | A computed property used at the name/key to store a value on the server.
-| lastUpdateTime     | CalculatedTime        | Reset each time the record is saved.
-| lastSyncTime       | CalculatedTime        | Reset each time the record is successfully posted to the server.
+Type     | Description                
+---------| ---------------------
+value    | 	Show the actual glucose value
+low      | Indicate the value is simply 'Low'
+high     | Indicate the value is simply 'High'
+
+Type                         | Notes       | Description
+---------------------------- | ----------- | ------------------
+| displayTypeRestricted      |             | This means another display of the same type is already connected. The app should show a screen or message saying the user needs to stop using their other phone/watch
+| wrongPairingCode           | G7 Only     | This means we found another device but it had a different pairing code than we were looking for. The app should show a message asking them if they entered the correct pairing code.
+| transmitterLostBond        | iOS Only    | The transmitter lost the bond information, so now the display is refusing to connect to the transmitter. The user needs to manually remove the bond information under Bluetooth Settings
+| tooManyDevicesConnected    | iOS Only    | The OS is reporting that too many devices are already connected. The user needs to remove some Bluetooth devices
