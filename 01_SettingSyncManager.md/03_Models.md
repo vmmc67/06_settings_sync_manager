@@ -27,7 +27,9 @@ For iOS, SettingsSyncManager additionally subscribes to a publisher on FeatureFl
 
 
 
-PLACEHOLDER 1
+
+![](../../../../images/DexAppKit/settings_sync_manager/jLZTZzCu47zk_WgpJnohd7GIkeS8xGSKT1LmB7JX7axtu2RJrbhNoTbE8QpsVyTEdCIExHHEd5Rg9ZE_iUTxfhqI4dDP7sXoDJo9Ey8GBmKaoPuKWE1GoGOTuB01BfAamlaTtW5QmfVhgdfDvAytYaw419O3kayG8am2tsBrjcvOZZSKFa1Uyg9b8dGk5FLFV80ChIKdR8VkqGuaUkYu50lviIgmX5kYCIympMkgNWlzFcBq.png)
+
 
 
 
@@ -36,8 +38,9 @@ PLACEHOLDER 1
 These models represent the alert settings storage format used on the server to which both platforms must conform. SettingsSyncManager will translate between the server models and the local persistence models. These dedicated server models mitigate the possibility that future persistence changes on either platform break cross-platform compatibility.
 
 
-PLACEHOLDER 2
 
+
+![](../../../../../CgmCoreSDKSDS/images/DexAppKit/settings_sync_manager/AlertProfileServer.png)
 
 
 The server models encoded as JSON will use snake_case for property names. Example:
