@@ -49,25 +49,34 @@ Method                       | Description
  |                 |                | failure(type: WatchMessageType)   | A file transfer failed, with the message type of the request attached
 
 
-
- PLACEHOLDER 1
-
+#### Startup
 
 
- PLACEHOLDER 2
+![](../../../images/DexAppKit/settings_sync_manager/WatchComSDK_StartUp.png)
 
 
-
- PLACEHOLDER 3
-
+#### Send Message Example (Inside DAK)
 
 
- PLACEHOLDER 4
+![](../../../images/DexAppKit/settings_sync_manager/WatchComSDK_SendMessageEx.png)
 
 
+#### Transfer User Info Example (Inside DAK)
 
- PLACEHOLDER 5
+![](../../../images/DexAppKit/settings_sync_manager/WatchComSDK_TransUserInfoEx.png)
+
+#### Successful Send File Example (Phone requests watch DB, please note that DebugDBImporterExporter is an app layer class and not within the SDK)
 
 
+![](../../../images/DexAppKit/settings_sync_manager/WatchComSDK_SuccSendFileEx.png)
 
- PLACEHOLDER 6
+
+#### Unsuccessful Send File Example (Phone requests watch DB, please note that DebugDBImporterExporter is an app layer class and not within the SDK)
+
+
+![](../../../images/DexAppKit/settings_sync_manager/WatchComSDK_UnsuccSendFileEx.png)
+
+#### Set Application Context Example
+
+
+![](../../../images/DexAppKit/settings_sync_manager/WatchComSDK_SetAppContextEx.png)

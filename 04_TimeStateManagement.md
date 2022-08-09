@@ -10,7 +10,8 @@ Time is a state of the application where absolute time is not certain. This stat
 
 
 
-PLACEHOLDER 1
+![](../../../images/DexAppKit/settings_sync_manager/TSM_SubcomponentDesign.png)
+
 
 
 ### Workflows
@@ -18,11 +19,11 @@ PLACEHOLDER 1
 #### Initialization
 
 
-PLACEHOLDER 2
+![](../../../images/DexAppKit/settings_sync_manager/TSM_Initialization.png)
 
 
 
 #### Time State Change
 
 
-PLACEHOLDER 3
+![](../../../images/DexAppKit/settings_sync_manager/TSM_TimeStateChange.png)

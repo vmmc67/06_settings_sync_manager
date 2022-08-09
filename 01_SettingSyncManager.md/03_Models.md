@@ -26,11 +26,7 @@ SettingsSyncManager subscribes to publishers on AlertProfileRepository, QuietMod
 For iOS, SettingsSyncManager additionally subscribes to a publisher on FeatureFlagRepository to be notified of changes to FeatureFlagRecord. This is done in order to send feature flags one-way from the phone to the companion app on the watch. The watchOS app does not rely on GCS directly for the Unit of Measure feature flag since client apps in some regions will allow users to change their preferred Unit of Measure. When this flag changes on the phone, it will be synced to the watch. FeatureFlagRecord does not implement SyncableRecord since there is no need to keep track of a lastSyncTime (used for server sync retries) or a lastUpdateTime (used for server sync retries and two-way companion app syncing).
 
 
-
-
-![](../../../../images/DexAppKit/settings_sync_manager/jLZTZzCu47zk_WgpJnohd7GIkeS8xGSKT1LmB7JX7axtu2RJrbhNoTbE8QpsVyTEdCIExHHEd5Rg9ZE_iUTxfhqI4dDP7sXoDJo9Ey8GBmKaoPuKWE1GoGOTuB01BfAamlaTtW5QmfVhgdfDvAytYaw419O3kayG8am2tsBrjcvOZZSKFa1Uyg9b8dGk5FLFV80ChIKdR8VkqGuaUkYu50lviIgmX5kYCIympMkgNWlzFcBq.png)
-
-
+![](../../../../images/DexAppKit/settings_sync_manager/Settings_Persistence_Model.png)
 
 
 ## AlertProfileServerModel & AlertSettingServerModel

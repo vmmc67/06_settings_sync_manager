@@ -38,22 +38,29 @@ Enums             | Description    | Case      | Description
 | WatchFileResult | An enum with associated objects which describes either a successful file transfer, or a failed transfer       | success(fileURL: URL, metadata: [String: Any]?, type: WatchMessageType   | A file transferred successfully, with the fileURL to retrieve it, the optional metadata, and the message type data attached
 |                 |                | failure(type: WatchMessageType)   | A file transfer failed, with the message type of the request attached
 
+#### Startup
+
+![](../../../images/DexAppKit/settings_sync_manager/WatchComiOS_Starup.png)
 
 
-PLACEHOLDER 1
+#### Send Message Example (Inside Dak)
+
+![](../../../images/DexAppKit/settings_sync_manager/WatchComiOS_SendMessageEx.png)
 
 
-
-PLACEHOLDER 2
-
+#### Transfer User Info Example (Inside Dak)
 
 
-PLACEHOLDER 3
+![](../../../images/DexAppKit/settings_sync_manager/WatchComiOS_TransUserInfoEx.png)
 
 
-
-PLACEHOLDER 4
-
+#### Successful Send File Example (Phone requests watch DB, please note that DebugDBImporterExporter is an app layer class and not within the SDK)
 
 
-PLACEHOLDER 5
+![](../../../images/DexAppKit/settings_sync_manager/WatchComiOS_SuccSendFileEx.png)
+
+
+#### Unsuccessful Send File Example (Phone requests watch DB, please note that DebugDBImporterExporter is an app layer class and not within the SDK)
+
+
+![](../../../images/DexAppKit/settings_sync_manager/WatchComiOS_UnsuccSendFileEx.png)

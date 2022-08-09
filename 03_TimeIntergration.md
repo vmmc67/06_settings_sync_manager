@@ -13,10 +13,10 @@ Time Integration is the DexAppKit implementation of TimeProvider. Integrating Ti
 The TimeIntegration class instantiates the TimeProvider component and manages the dispersal of certainty information between the various sub components in the DexAppKit.
 
 
-PLACEHOLDER 1
+![](../../../images/DexAppKit/settings_sync_manager/TimeIntergrationDiagram.png)
 
 
 ## Event Scheduling Workflows
 
 
-PLACEHOLDER 2
+![](../../../images/DexAppKit/settings_sync_manager/TI_EventSchedWorkflows.png)
